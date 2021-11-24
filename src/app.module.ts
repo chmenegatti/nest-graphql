@@ -12,7 +12,6 @@ import { ContentsModule } from './modules/contents/contents.module';
 
 @Module({
   imports: [
-    DisciplinesModule,
     GraphQLModule.forRoot({
       autoSchemaFile: join(process.cwd(), 'src/schema.gql'),
       sortSchema: true,
